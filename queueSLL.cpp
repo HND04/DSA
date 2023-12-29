@@ -107,8 +107,7 @@ int main(){
      case 1:
         cout<<"enter data to insert:"<<endl;
         cin>>data;
-        s.enque(data); /* constant-expression */
-        /* code */
+        s.enque(data); 
         break;
      case 2:
         s.deque();
